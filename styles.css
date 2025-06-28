@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+video{
+    width: 100%;
+    max-height: fit-content;
+    z-index: 0;
+}
+.navbar{
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 80px;
+    width: 250px;
+}
+.subnav{
+    height: 60px;
+    width: 850px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+a{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+a:hover{
+    color: orangered;
+}
+.a{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(53, 93, 180);
+}
+.b{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+}
+.txt{
+    width: 50%;
+    height: 400px;
+    padding: 50px;
+}
+.image{
+    width: 50%;
+    height: 400px;
+}
+.c{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(223, 223, 223);
+}
+.d{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(8, 8, 167);
+}
+.an{
+    color: white;
+}
+.an:hover{
+    color: orangered;
+}
+.cards{
+    height: 520px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 100px;
+    border-radius: 15px;
+    border: 2px solid blue;
+}
+.cards:hover{
+    border: 2px solid orangered;
+}
+.campus_life{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(235, 235, 243);
+}
+.polaroid{
+    height: 270px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 15px;
+    background-color: white;
+    float: left;
+    border: 2px solid blue;
+    color: blue;
+}
+.polaroid:hover{
+    border: 2px solid orangered;
+}
+.feedback{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(206, 206, 231);
+}
+.feed{
+    height: 370px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 2px;
+    background-color: rgb(35, 105, 236);
+    float: left;
+    border: 10px solid blue;
+    color: white;
+    text-align: justify;
+}
+.scroll{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+.footer{
+    height: 440px;
+    width: 100%;
+    background-color: black;
+}
+.sec{
+    height: 330px;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 60px;
+    border-radius: 2px;
+    float: left;
+    color: white;
+    text-align: justify;
+}
+.contact{
+    height: 440px;
+    width: 800px;
+    background-color: white;
+    position: absolute;
+    top: 4200px;
+    left: 250px;
+}
+.c1{
+    height: 400px;
+    width: 350px;
+    float: left;
+    border-radius: 10px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 35px;
+    color: white;
+}
+.c2{
+    height: 400px;
+    width: 350px;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 3px grey;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.copy{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+.text{
+    position: relative;
+    top: -20px;
+}
+.icon{
+    width: 600px;
+    position: relative;
+    top: -70px;
+    left: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: rgb(67, 94, 245,0.5);
+    color: white;
+    text-align: center;
+}
+i{
+    margin-top: 15px;
+    font-size: 20px;
+}
