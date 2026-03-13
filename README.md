@@ -1,1 +1,1 @@
-# AdityaUniversity_Clone
+# AdityaUniversityClone
